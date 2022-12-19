@@ -1,0 +1,17 @@
+.card {
+    background-color: #fff;
+    border: 1px solid grey;
+    &:hover {
+        box-shadow: .3rem .3rem 10px 5px grey;
+    }
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.card_content {
+    padding: 1rem;
+}

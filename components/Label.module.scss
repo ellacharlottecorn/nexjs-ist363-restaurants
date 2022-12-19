@@ -1,0 +1,8 @@
+@use '../sass/abstracts/vars';
+
+.label {
+    font-family: vars.$font_secondary;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+}

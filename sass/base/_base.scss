@@ -1,0 +1,26 @@
+@use '../abstracts/vars';
+@use '../abstracts/mixins';
+
+//typographic reset
+h1, h2, h3, h4, h5, h6, p, ul, li, ol {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+ul, ol, li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top; // remove space after img
+}
+
+* {
+	box-sizing: border-box; // invert padding - pushes in instead of out
+}
+
+body {
+	background-color: white;
+	color: black;
+	font-family: vars.$font_primary;
+}
